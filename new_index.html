@@ -6,11 +6,25 @@
     <meta name="description" content="サイトキャプションを入力" />
     <meta name="keywords" content="サイトキーワードを,で区切って入力" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css">
+
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-    <script src="sample.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+      <script src="js/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+    $(document).on('ready', function() {
+
+  $('.single').slick({
+    autoplay: true, //自動再生
+  });
+
+    });
+</script>
   </head>
 
   <body>
@@ -25,6 +39,18 @@
       <section>
         <div class="Unko">これは、うんちです。</div>
         <div class="GradUnko">端から端まですべてうんちです。</div>
+<div class="single">
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg" alt=""></div>
+    <div><img src="img/u1.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/5.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/6.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/7.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/8.jpg" alt=""></div>
+</div>
+
+
         <h2>タイトル</h2>
         <p>コンテンツの内容</p>
       </section>

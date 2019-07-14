@@ -14,3 +14,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+.single { max-width: 600px; margin: 0 auto 50px;}
+.single img{ width: 100%;}

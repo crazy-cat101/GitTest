@@ -1,9 +1,22 @@
-let hello : String = "hello"
-let world : String = "world"
-let price : Int = 900
-let count : Int = 3
-var result : Int = 0
+let cnteye : Int = 2
+let cntmouth : Int = 1
+let cntnorse : Int = 1
 
-result = price * count
+let nameeye : String = "cnteye"
+let namemouth : String = "cntmouth"
+let namenorse : String = "cntnorse"
 
-print(result)
+var choosedvalue : String = ""
+var msg1 : String = ""
+var msg2 : String = " is "
+var msg3 : String = ""
+
+choosedvalue = nameeye
+msg1 = choosedvalue
+msg3 = "\(choosedvalue)"
+
+if Int("\(choosedvalue)") == 2 {
+    print("\(msg1)" + msg2 + "\(msg3)" )
+}else{
+    print("\(msg1)" + msg2 + "not " + "\(msg3)" )
+}

@@ -8,3 +8,12 @@ color:brown;
 color:brown;
 font-weight:bold;
 }
+
+.GradUnko
+{
+font-size: 30px;
+color: #8b4513;
+  background: -webkit-linear-gradient(0deg, #ffa666, #331907);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
